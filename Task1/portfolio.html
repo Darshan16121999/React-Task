@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title>Poertfolio</title>
+    <style>
+        button {
+            margin-top: 5%;
+            border-radius: 10%;
+            background-color: dodgerblue;
+            border: none;
+            height: 5%;
+            width: 5%;
+            color: white;
+            font-family: "Times New Roman", Times, serif;
+            transition: 0.2;
+        }
+
+        button:hover {
+            opacity: 0.5;
+            border: 1px solid blueviolet;
+            font-weight: bold;
+        }
+
+        img {
+            height: 30%;
+            margin-left: 5%;
+            margin-top: 5%;
+
+
+        }
+
+        .member-info {
+            margin-left: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+
+
+    <center><button id="all">All</button> <button id="static">Static</button> <button id="dynamic">Dynamic</button>
+    </center>
+
+    <a class="dynamic" href=""><img src="portfolio/a1-healthcare.png" alt="a1 Healthcare"></a>
+    <a class="static" href=""><img src="portfolio/advanceimagingsolution.png" alt="advance imaging"></a>
+    <a class="dynamic" href=""><img src="portfolio/gacc.png" alt="gacc"></a>
+    <a class="static" href=""><img src="portfolio/kangaroo-industries.png" alt="Kangaroo"></a>
+
+    <a class="dynamic" href=""><img src="portfolio/legalaccure.png" alt="legal Accure"></a>
+    <a class="static" href=""><img src="portfolio/gacmaninagar.png" alt="gac maninagar"></a>
+    <a class="static" href=""><img src="portfolio/Tangle Coder.png" alt="tanglecoder"></a>
+    <a class="static" href=""><img src="portfolio/madhav-engineering.png" alt="Madhav"></a>
+
+
+
+
+
+
+
+</body>
+
+</html>
+<script>
+    document.querySelector('#all').onclick = function () {
+        let static = document.querySelectorAll('.static');
+        let dynamic = document.querySelectorAll('.dynamic');
+        for (let i = 0; i < static.length; i++) {
+            static[i].style.display = '';
+        }
+        for (let i = 0; i < dynamic.length; i++) {
+            dynamic[i].style.display = '';
+        }
+
+    }
+
+    document.querySelector('#static').onclick = function () {
+        let static = document.querySelectorAll('.static');
+        let dynamic = document.querySelectorAll('.dynamic');
+        for (let i = 0; i < static.length; i++) {
+            static[i].style.display = '';
+        }
+        for (let i = 0; i < dynamic.length; i++) {
+            dynamic[i].style.display = 'none';
+        }
+
+    }
+
+    document.querySelector('#dynamic').onclick = function () {
+        let static = document.querySelectorAll('.static');
+        let dynamic = document.querySelectorAll('.dynamic');
+        for (let i = 0; i < static.length; i++) {
+            static[i].style.display = 'none';
+        }
+        for (let i = 0; i < dynamic.length; i++) {
+            dynamic[i].style.display = '';
+        }
+
+    }
+</script>
