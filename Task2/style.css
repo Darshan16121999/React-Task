@@ -1,27 +1,28 @@
+::-webkit-scrollbar
+{
+    display: none;
+}
+
 #container{
 
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    left:50%;
-    transform :translateX(-50%);
+    margin-left: 25px;
 }
 
 #container div {
-    background-color: whitesmoke;
+    background-color: #31354e;
     box-shadow: 0px 0px 1px gray;
     border-radius: 5px;
     min-width: 200px;
     height: 300px;
     margin: 5px;
     transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+    color:  #dfdfe2;
 }
 
-#container div:hover
-{
-    opacity: 0.7;
-    cursor: pointer;
-}
 
 h1
 {
@@ -33,4 +34,54 @@ img
     border-radius: 5px;
     width: 200px;
     height: auto;
+}
+
+.price
+{
+    color: #72758e;
+    font-weight: bold;
+}
+
+hr
+{
+    background-color: #e056b1;;
+}
+
+.title
+{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+#overlay {
+   background: rgba(0, 0, 0, 0.80);
+  text-align: center;
+  padding: 45px 0 66px 0;
+  opacity: 0;
+
+  width: 200px;
+  height: 200px;
+  position:absolute;
+  top: 0px;
+    left: 0px;
+    cursor: pointer;
+ 
+}
+
+i{
+    color: white;
+    font-size: 25px !important;
+    border-radius: 50%;
+     background-color: #31354e;
+     padding: 12px;
+     transition: 0.5s;
+     margin-left: 10px;
+     margin-top: 25px;
+}
+
+i:hover
+{
+    
+    color: darkred;
+    background-color: white;
 }

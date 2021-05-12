@@ -90,8 +90,16 @@ var container = document.getElementById('container')
 
 product.map(function (data) {
     var temp = document.createElement('div')
-    temp.innerHTML = `<img src="${data.productImg}"><h3>${data.productName}</h3><br><span>${data.productPrice}</span>`
+    temp.innerHTML = `<img src="${data.productImg}" onmouseover="test(this)"><h3 class="title">${data.productName}</h3><hr><span class="price">Rs. ${data.productPrice}</span>`
     container.appendChild(temp)
 })
 
 
+function test(vari) {
+    // console.log(1);
+    var overlay = document.getElementById('overlay')
+    overlay.style.opacity = 1
+    overlay.style.top = vari.offsetTop + 'px'
+    overlay.style.left = vari.offsetLeft + 25 + 'px'
+
+}
