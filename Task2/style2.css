@@ -1,0 +1,129 @@
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.navbar
+{
+    background-color: white !important;
+}
+
+.navbar-nav
+{
+    margin-left: 50%;
+    
+}
+
+.login-button
+{
+    border: 2px solid dodgerblue !important;
+    background-color: white;
+    color: dodgerblue !important;
+    font-family: 'Roboto Mono', monospace;
+    width: 180px !important;
+
+}
+
+.login-button:hover
+{
+    background-color: dodgerblue !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+input[type="button"]
+{
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+
+
+.navbar-nav > li
+{
+    padding-left : 12px !important ;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.navbar-nav > li:hover
+{
+   
+
+  font-weight: bold;
+  
+}
+
+i
+{
+    font-size: 20px !important;
+    margin-top: 10px;
+    color: #361134 !important;
+
+}
+
+i:hover
+{
+    color: dodgerblue !important;
+
+    
+}
+
+.nav-link:hover
+{
+      color: dodgerblue !important;
+}
+
+.productbanner > img
+{
+    width:100%;
+    height:500px !important;
+    
+}
+
+.productbanner
+{
+    margin-top: 10px;
+}
+
+.best-deal-icons
+{
+    margin-top: 150px !important;
+}
+
+.icon-box
+{   
+    /* margin-top: 25px; */
+    height: 250px;
+    margin-left: 15px !important;
+    /* border: 1px solid #000; */
+    font-size: 20px ;
+   
+   
+}
+
+.icon-box:hover{
+    
+    box-shadow: 0px 3px 3px grey;
+}
+
+.best-deal-icons
+{
+    margin-left:255px !important;
+     margin-top: 40px !important;
+     
+}
+
+ .fontaw
+{   
+    font-size: 80px !important;
+    margin-top: 40px !important;
+    color: grey !important;
+}
+
+.popular-categories
+{
+    text-decoration: underline;
+    margin-top: 30px;
+}

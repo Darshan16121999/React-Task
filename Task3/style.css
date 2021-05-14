@@ -1,0 +1,88 @@
+body
+{
+    background-image: url(Images/backgroundimg.jpg);
+}
+
+.container
+{
+    height: 700px;
+    width: 28%;
+    border: 1px solid #ecf0f3;
+    background-color: #ecf0f3;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #d4d5d7;
+    
+}
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #dde1e4;
+    box-shadow:5px 3px #e8ecef; 
+    margin-top: 10%;
+}
+
+.head
+{
+    font-size: 25px;
+    position: relative;
+    top: 20px !important;
+}
+
+.field
+{
+    position: relative;
+    top: 80px !important;
+}
+
+input[type=text]
+{
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #ecf0f3;
+    box-shadow: 3px 3px 1px 0 #cbcfd2 inset,inset  -1px -1px 1px -1px rgba(255,255,255,0.3);
+    border: none;
+
+}
+
+input[type=password]
+{
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #ecf0f3;
+    box-shadow: 3px 3px 1px 0 #cbcfd2 inset,inset  -1px -1px 1px -1px rgba(255,255,255,0.3);
+    border: none;
+
+    
+}
+
+input[type=button]
+{
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #0063b1;
+    color: white;
+    border: none;
+    font-weight: 600;
+   
+}
+
+.fg
+{
+    position: relative;
+    top: 80px;
+    font-size: 10px;
+}
+
+::placeholder
+{
+    position: relative;
+    left: 70px;
+    font-weight: 500;
+}
