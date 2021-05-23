@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Signika&display=swap');
+
+body
+{
+  background-color: #f0f4f3;
+}
+
+.container
+{
+  position: relative;
+  top: -20%;
+  left:50%;
+  transform: translate(-50%,20%);
+  height: 500px;
+  width: 800px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.incontainer
+{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 500px;
+  width: 300px;
+  background-color:#3ab495 ;
+  color: white;
+}
+
+.title-form 
+{
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  
+}
+
+.data-form
+{
+  position: absolute;
+  left: 5%;
+  top: 35%;
+}
+
+.sign-in
+{
+  height: 50px;
+  width: 200px;
+  background-color: #3ab397;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+}
+
+.sign-in:hover
+{
+  border: 2px solid #3ab397;
+  background-color: white;
+  color: #3ab397;
+}
+
+.title-main
+{
+  color: #5dbfaf;
+  position: absolute;
+  bottom: 70%;
+  right: 16%;
+}
+
+input
+{
+  margin-top: 10px;
+  height: 40px;
+  width: 260px;
+  padding-left: 40px !important;
+  background-color: #f4f8f7;
+  border: 1px solid #f4f8f7;
+  border-radius: 50px;
+}
+
+input:focus
+{
+  outline: none !important;
+  border: 2px solid #3ab397;
+}
+
+.signup-form
+{
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+}
+
+::placeholder
+{
+  color: #c9cccb;
+  font-weight: 600;
+}
+
+.sign-up
+{
+  height: 50px;
+  width: 200px;
+  background-color: #3ab397;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 120%;
+  left: 15%;
+}
+
+.sign-up:hover
+{
+  border: 2px solid #3ab397;
+  background-color: white;
+  color: #3ab397;
+}
+

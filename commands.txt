@@ -1,0 +1,5 @@
+To Create React App
+Step 1 : create-react-app ./   (in Cmd)
+Step 2 : npm install react-router-dom
+Step 3 : npm install axios
+Step 4 : npm start
